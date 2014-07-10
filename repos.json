@@ -1,45 +1,53 @@
 {
   "repos": {
-    "android-times-square": ["Android"],
-    "border_patrol": ["Ruby"],
-    "cane": ["Ruby"],
-    "crossfilter": ["JavaScript"],
-    "cube": ["JavaScript"],
-    "cubism": ["JavaScript"],
-    "dagger": ["Android", "Java"],
-    "es6-module-transpiler": ["JavaScript"],
-    "ETL": ["Ruby"],
-    "fdoc": ["Ruby"],
-    "fest-android": ["Android"],
-    "JavaWriter": ["Java"],
-    "jetpack": ["Ruby"],
-    "jirafy": ["Other"],
-    "LGTM": ["JavaScript"],
-    "objc-mocktail": ["iOS"],
-    "objc-TimesSquare": ["iOS"],
-    "okhttp": ["Android", "Java"],
-    "otto": ["Android"],
-    "picasso": ["Android"],
-    "pollexor": ["Android", "Java"],
-    "PonyDebugger": ["iOS"],
-    "protoparser": ["Java"],
-    "rack-servlet": ["Java"],
-    "retrofit": ["Android", "Java"],
-    "seismic": ["Android"],
-    "shuttle": ["Other"],
-    "SocketRocket": ["iOS"],
-    "spoon": ["Android"],
-    "tape": ["Android"],
-    "toggle": null,
-    "wire": ["Android", "Java"]
+    "PythonSoccer": ["Python"],
+    "mockredis": ["Python"],
+    "meetupslides": ["Python"],
+    "MadTweet": ["Mozilla"],
+    "linuxgrowl": ["Mozilla"],
+    "PersonalPasswordManager": ["Python"],
+    "pipelog": ["Ruby"],
+    "DatabaseSampler": ["Ruby"]
+  },
+  "github_usernames": {
+      "PythonSoccer": "MadanThangavelu",
+      "mockredis": "MadanThangavelu",
+      "meetupslides": "MadanThangavelu",
+      "MadTweet": "MadanThangavelu",
+      "linuxgrowl": "MadanThangavelu",
+      "PersonalPasswordManager": "HackingHabits",
+      "pipelog": "HackingHabits",
+      "DatabaseSampler": "HackingHabits"
   },
   "custom": [
     {
-      "name": "squash",
-      "homepage": "http://squash.io",
-      "html_url": "https://github.com/SquareSquash",
-      "description": "Squash is an exception reporting and bug analysis tool from Square.",
-      "categories": null
+      "name": "Wifi proximity networking app",
+      "homepage": "https://play.google.com/store/apps/details?id=com.meetupslides.stratworking&hl=en",
+      "html_url": null,
+      "description": "Search for your friends who are scanned by your wifi radio on your android phone",
+      "categories": ["Android"]
+    },
+    {
+          "name": "Ancient Vedas",
+          "homepage": "http://www.ancientvedas.com/",
+          "html_url": null,
+          "description": "A website to learn vedas using audio snippets hosted using soundcloud api",
+          "categories": ["Websites"]
+    },
+    {
+          "name": "HackingHabits blog",
+          "homepage": "http://www.hackinghabits.com/",
+          "html_url": null,
+          "description": "An infrequently written personal technical blog",
+          "categories": ["Websites"]
+    },
+    {
+      "name": "Django-Haystack",
+      "homepage" : null,
+      "html_url" : "https://github.com/toastdriven/django-haystack/commits?author=MadanThangavelu",
+      "description": "Modular search for Django",
+      "categories": ["Python"]
     }
-  ]
+  ],
+  "repo_ordering": ["python", "Ruby", "Mozilla", "Javascript", "Android", "Websites"]
 }

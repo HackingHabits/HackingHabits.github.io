@@ -17,7 +17,7 @@ index_out = 'index.html'
 auth = netrc.netrc()
 try:
   (login, _, password) = auth.authenticators('api.github.com')
-  ghclient = Github(login=login, password=password)
+  ghclient = Github(login="MadanThangavelu", password="Greencity9")
   logged_in = True
 except:
   ghclient = Github()
@@ -31,7 +31,7 @@ def gh_repo(name):
   if not logged_in:
     time.sleep(2.0) # Take a nap so GitHub doesn't aggressively throttle us.
 
-  repo = ghclient.repos.get(user='square', repo=name)
+  repo = ghclient.repos.get(user=github_usernames[name], repo=name)
   return dict(
     name=repo.name,
     homepage=repo.homepage,
@@ -46,6 +46,7 @@ with codecs.open(repos_in, 'r', 'utf-8') as f:
 
 repos = repo_config['repos']
 custom = repo_config['custom']
+github_usernames = repo_config['github_usernames']
 
 # Multimap of categories to their repos.
 categories = defaultdict(list)
